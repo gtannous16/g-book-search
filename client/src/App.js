@@ -1,5 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { Container } from 'reactstrap';
+
+import Books from './pages/Books';
+import Saved from './pages/Saved';
+import NavMenu from './components/NavMenu';
+
 import './App.css';
 
 function App() {
