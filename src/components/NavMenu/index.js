@@ -30,9 +30,6 @@ class NavMenu extends Component {
                         <NavItem className='ml-auto'>
                             <NavLink href='/saved'>Saved</NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink href='/'>Books</NavLink>
-                        </NavItem>    
                 </NavItem>
                     {/* </Collapse> */}
             </header>

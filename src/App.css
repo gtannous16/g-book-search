@@ -6,8 +6,25 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  color:white;
+  font-family: serif;
+}
+h3{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
+h4{
+  font-size: 30px;
+  font-weight: 600;
+}
+.books{
+  margin: 10px !important;
+  padding:10px;
+}
+.message-box{
+  margin-top:23px;
+}
 .application {
   display: -webkit-box;
   display: -moz-box;
@@ -23,14 +40,15 @@ main {
 }
 
 .wrapper {
-  padding: 60px 0px;
+  padding: 80px 0px;
 }
 
 span,
 label,
 a,
 p {
-  font-size: 16px;
+  font-size: x-large;
+  font-family: serif;
 }
 
 label {
@@ -57,22 +75,25 @@ a:hover {
   width: 150px;
   padding: 10px;
   border: 1px solid #cccc !important;
-  color: #e99678 !important;
+  color: white !important;
+  background-color:#e99678;
 }
 
 .theme-link:hover {
-  color: #e99678 !important;
-  background-color: #cccccc52;
+  color: #e99678!important;
+  background-color: #fff;
 }
 
 .theme-btn {
   border: 1px solid #cccc !important;
   background-color: #e99678;
   color: #fff;
-  padding: 10px;
+  padding: 5px;
   border: none;
   width: 150px;
   transition: 0.3s;
+  font-family: serif;
+  font-size: x-large;
 }
 
 .theme-btn:hover {
@@ -96,4 +117,20 @@ a:hover {
 .no-data {
   margin: 25px 0px;
   color: #e99678;
+}
+
+.book-box{
+  background-color:#e99678ee;
+  color:white;
+  padding: 20px;
+  margin: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.alert-success {
+  color: #fff;
+  background-color:#e99678ee;
+  border-color: #cccc;
 }
