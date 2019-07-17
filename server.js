@@ -16,6 +16,7 @@ if (process.env.NODE_ENV === 'production'){
 app.use(routes);
 
 //connect to mongoDB
+
 mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true});
 
 //start the server
