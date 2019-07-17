@@ -13,10 +13,10 @@ router.get('/', (req, res)=>{
 });
 
 router.post('/search', (req, res)=> {
-    let search = req.body.search.replace(/\s/g, '+');
-
+    let search = req.body.search.replace(/\s/g, `+`);
+    
     axios
-        .get('https://www.googleapis.com/books/v1/volumes?q=${search}')
+        .get(`https://www.googleapis.com/books/v1/volumes?q=${search}`)
         .then(response => {
             res.json(response.data.items);
         })

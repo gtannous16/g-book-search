@@ -1,9 +1,9 @@
 require('dotenv').config();
 const express = require('express');
-const mongoose = requiree('mongoose');
+const mongoose = require('mongoose');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 const routes = require('./routes');
 
@@ -20,5 +20,5 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true});
 
 //start the server
 app.listen(PORT,() => {
-    console.log('API server now listening on PORT ${PORT}!');
+    console.log('API server now listening on PORT 5000!');
 });
